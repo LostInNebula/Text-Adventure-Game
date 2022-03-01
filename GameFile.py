@@ -589,7 +589,5 @@ def end():
     print("Goodbye!")
     sys.exit()
 
-def start():
+if __name__ == '__main__':
     scene1()
-
-start()
